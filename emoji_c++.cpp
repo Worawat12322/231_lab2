@@ -1,6 +1,4 @@
 #include <iostream>
-using namespace std;
-
 int main(){
 	char ch;
 	int nm,cal;

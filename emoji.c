@@ -2,7 +2,8 @@
 int main(){
 	char ch;
 	int nm,cal;
-	scanf("%c",&ch);
+	int sl = 92;
+	scanf("%c",&ch); 
 	fflush(stdin);
 	scanf("%d",&nm);
 	if(ch>=65&&ch<=90)
@@ -13,17 +14,11 @@ int main(){
 			if(cal==1)
 			{
 				if(nm%10 == 5)
-					printf("\(^_^)/");	
+					printf("%c(^_^)/",sl);	
 				else printf("(^_^)");		
 			}
-			else 
-			{
-				if(nm%10 == 5)
-					printf("\{@_@}/");
-				else	
-					printf("{@_@}");
-			
-			}
+			else 	
+				printf("{@_@}");	
 		}
 		else if(ch<=82)
 		{
@@ -31,15 +26,11 @@ int main(){
 			if(cal==1)
 			{
 				if(nm%10 == 5)
-					printf("\(*o*)/");
+					printf("%c(*o*)/",sl);
 				else printf("(*o*)");
 			}
 			else
-			{
-				if(nm%10 == 5)
-					printf("\{*v*}/");
-				else printf("{*v*}");
-			} 
+				 printf("{*v*}");
 		}
 		else if(ch<=90)
 		{
@@ -47,16 +38,12 @@ int main(){
 			if(cal==1)
 			{
 				if(nm%10 == 5)
-					printf("\(T_T)/");
+					printf("%c(T_T)/",sl);
 				else printf("(T_T)");
 			}
 				
-			else 
-			{
-				if(nm%10 == 5)
-					printf("\{x_x}/");
-				else printf("{x_x}");
-			}		
+			else printf("{x_x}");
+					
 		}
 	}
 	return 0;
