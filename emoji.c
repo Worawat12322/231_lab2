@@ -2,9 +2,9 @@
 int main(){
 	char ch;
 	int nm,cal;
-	scanf("%c",ch);
+	scanf("%c",&ch);
 	fflush(stdin);
-	scanf("%d",nm);
+	scanf("%d",&nm);
 	if(ch>=65&&ch<=90)
 	{
 		if(ch<=73)
