@@ -6,7 +6,7 @@ int main(){
 	scanf("%c",&ch); 
 	fflush(stdin);
 	scanf("%d",&nm);
-	if(ch>=65&&ch<=90)
+	if((ch>=65&&ch<=90)&&(nm>0&&nm<32))
 	{
 		if(ch<=73)
 		{
