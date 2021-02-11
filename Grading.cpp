@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main(){
 	int a,b,c,score;
-	print("Enter a: ");
+	printf("Enter a: ");
 	scanf("%d",&a);
-	print("Enter b: ");
+	printf("Enter b: ");
 	scanf("%d",&b);
-	print("Enter c: ");
+	printf("Enter c: ");
 	scanf("%d",&c);
 	
+	return 0;
 }
