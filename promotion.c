@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main(){
 	char pro;
 	float time,cash;
@@ -13,7 +14,9 @@ int main(){
 			cash = time-200;
 			cash = cash*0.05*60;
 			cash+=199;
-			
+			if(cash-(int)(cash)>0)
+				cash+=1;
+			cash = (int)(cash);
 		}
 		else cashint = 199;
 	}
@@ -24,6 +27,9 @@ int main(){
 			cash = time-400;
 			cash = cash*0.033*60;
 			cash+=299;
+			if(cash-(int)(cash)>0)
+				cash+=1;
+			cash = (int)(cash);
 		}
 		else cash = 299;
 	}
